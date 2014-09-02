@@ -1,0 +1,5 @@
+<script type="text/ejs" id="messages_template">
+[% for (var i = 0; i < messages.length ; i++) { %]
+<div><strong>[%= messages[i].get("name") %]:</strong><br /> [%= messages[i].get("word") %]</div>
+[% } %]
+</script>
